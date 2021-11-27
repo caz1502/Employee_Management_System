@@ -63,14 +63,14 @@ function selectMenu() {
                 'View all employees',
                 'View employees by manager',
                 'View employees by department',
+                'View department utilized budget',
                 'Add a department',
                 'Add a role',
                 'Add a employee',
                 'Update an employee role',
                 'Delete a department',
                 'Delete a role',
-                'Delete an employee',
-                'View department utilized budget',
+                'Delete an employee',              
                 'Exit'
             ]
         }).then(function (answer) {
@@ -151,7 +151,7 @@ function viewDepartments() {
 
 // view roles from select menu
 function viewRoles() {
-    const query = `SELECT role.id AS Role_ID, role.title as Role_Title, role.salary as Salary FROM role`
+    const query = `SELECT role.id AS Role_ID, role.title AS Role_Title, role.salary AS Salary, role.department_id AS Department_ID FROM role`
 
     connection.query(query, function (err, res) {
         if (err) throw err;
@@ -165,7 +165,7 @@ function viewRoles() {
 
 // view employees from select menu
 function viewEmployees() {
-    const query = `SELECT employee.id AS Employee_ID, concat(employee.first_name, ' ', employee.last_name) AS Employee FROM employee`
+    const query = `SELECT employee.id AS Employee_ID, concat(employee.first_name, ' ', employee.last_name) AS Employee, employee.role_id AS Role_ID, employee.manager_id AS Reporting_Manager_ID FROM employee`
 
     connection.query(query, function (err, res) {
         if (err) throw err;
