@@ -1,0 +1,30 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "Employee-Management-System",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caz1502/Employee-Management-System.git"
+  },
+  "author": "Carol-Shiers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caz1502/Employee-Management-System/issues"
+  },
+  "homepage": "https://github.com/caz1502/Employee-Management-System#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "figlet": "^1.5.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1",
+    "mysql2": "^2.3.3"
+  }
+}
