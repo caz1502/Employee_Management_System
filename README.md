@@ -40,11 +40,20 @@ THEN I am prompted to select an employee to update and their new role and this i
 ---
 ## Description
 ```
-add text here
+An Employee management system to view, amend, add and delete as required.
 ```
 ---
 ## Media
-![Tech-Blog]()
+
+
+[Youtube video - using the application](https://youtu.be/ZqpqcMF4ym0) 👀 
+
+![schema](./assets/images/schema.png)
+
+![pic1]()
+
+![pic2]()
+
 
 ---
 ## Apps 
