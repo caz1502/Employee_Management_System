@@ -1,7 +1,7 @@
 ![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)   [License - MIT](https://opensource.org/licenses/MIT/)
 
 # Employee-Management-System 
-Live Application Link 👀 
+Live Application Link 👀 https://caz1502.github.io/Employee_Management_System/
 
 ---
 ## The Task
@@ -48,11 +48,11 @@ An Employee management system to view, amend, add and delete as required.
 
 [Youtube video - using the application](https://youtu.be/ZqpqcMF4ym0) 👀 
 
-![schema](./assets/images/schema.png)
+![schema](./assets/schema.png)
 
-![pic1]()
+![pic1](./assets/EMS1.PNG)
 
-![pic2]()
+![pic2](./assets/EMS2.PNG)
 
 
 ---
@@ -61,13 +61,13 @@ An Employee management system to view, amend, add and delete as required.
 *  Visual Studio Code
 *  Node JS
 *  npm 
+    * express
     * inquirer
     * mysql2
     * figlet
     * console-table-row
     * chalk
     * color
-*  Canva
 *  Windows 10 photo editor
 
 ---
