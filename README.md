@@ -48,16 +48,16 @@ add text here
 
 ---
 ## Apps 
-*  Insomnia
+*  MySQLWorkbench
 *  Visual Studio Code
 *  Node JS
 *  npm 
     * inquirer
     * mysql2
     * figlet
-    * fs
-    * console.table
+    * console-table-row
     * chalk
+    * color
 *  Canva
 *  Windows 10 photo editor
 
@@ -66,12 +66,11 @@ add text here
 * JavaScript
 * SQL
 ---
+
 ## Resources 
 * Teaching Crew at UniSA Coding Bootcamp 
-* W3Schools 
 * GitHub 
 * Youtube
 * Google
-* StackOverflow
 ---
 

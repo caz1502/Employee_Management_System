@@ -18,6 +18,8 @@
   "homepage": "https://github.com/caz1502/Employee-Management-System#readme",
   "dependencies": {
     "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "console-table-printer": "^2.10.0",
     "console.table": "^0.10.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",

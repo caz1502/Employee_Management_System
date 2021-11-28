@@ -1,4 +1,4 @@
--- DROP DATABASE IF EXISTS company_db;
+DROP DATABASE IF EXISTS company_db;
 CREATE DATABASE company_db;
 USE company_db;
 
@@ -17,7 +17,7 @@ CREATE TABLE role (
     -- link id from department table
     FOREIGN KEY (department_id)
     REFERENCES department(id)
-    ON DELETE SET NULL
+    ON DELETE CASCADE
 );
 
 -- creates employee table
@@ -30,4 +30,9 @@ CREATE TABLE employee (
     -- link id from role table
     FOREIGN KEY (role_id)
     REFERENCES role(id)
+     ON DELETE SET NULL,
+    --  link id from emplyee table
+    FOREIGN KEY (manager_id)
+    REFERENCES employee(id)
+    ON DELETE SET NULL
 );
